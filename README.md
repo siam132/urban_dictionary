@@ -15,3 +15,5 @@ You will also see any lint errors in the console.
 
 # urban_dictionary
 Just a simplified version of Urban dictionary using React. 
+
+![Alt text](src/assets/urban_sc.png?raw=true "Optional Title")
