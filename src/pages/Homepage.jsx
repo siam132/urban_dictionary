@@ -73,7 +73,7 @@ export default class Homepage extends Component {
       );
     return (
       <div className="container-fluid App-header">
-        <div className="col-8">
+        <div className="col-lg-5 col-md-10 col-sm-8">
           <div className="form-group">
             <form onSubmit={this.handleSubmit}>
               <label className="urban_dictionary">Urban dictionary</label>
@@ -83,9 +83,9 @@ export default class Homepage extends Component {
                 value={this.state.word_query}
                 onChange={this.handleChange}
               />
-              <div className="row justify-content-center">
+              <div className="row justify-content-start">
                 <input
-                  className="col-6  btn btn-warning py-2 m-4"
+                  className="col-4  btn btn-warning py-2 m-3"
                   type="submit"
                   value="Search"
                 />
